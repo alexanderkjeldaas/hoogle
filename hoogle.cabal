@@ -28,8 +28,8 @@ data-files:
     resources/search.xml
 
 source-repository head
-    type:     darcs
-    location: http://code.haskell.org/hoogle/
+    type:     git
+    location: https://github.com/ndmitchell/hoogle.git
 
 library
     hs-source-dirs:     src
